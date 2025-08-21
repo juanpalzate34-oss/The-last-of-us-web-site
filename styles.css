@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Inter:wght@400;500;700&display=swap');
+
+body {
+  font-family: "Inter", "Segoe UI", "Noto Sans", sans-serif;
+  background-color: #0e0e0e;
+  color: #ddd;
+  line-height: 1.6;
+  background-image: url("https://i.redd.it/7vfcsme1s7ya1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: rgba(10, 10, 10, 0.9) !important;
+  border-bottom: 2px solid #ffffff;
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #d9d7ce !important;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Inter", sans-serif;
+  color: #cfcfcf !important;
+  margin: 0 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #2f4f7f !important; /* Azul profundo */
+  text-shadow: 0px 0px 6px rgba(47, 79, 127, 0.7);
+}
+
+/* TITULOS */
+h1, h2, h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.lead {
+  font-family: "Monserrat", sans-serif;
+  color: #ffffff;
+}
+
+/* BOTONES */
+.btn-sm.btn-outline-secondary {
+  background-color: #1c35578f; /* Azul oscuro */
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2f4f7f; /* Azul más brillante */
+  color: #fff;
+  box-shadow: 0 0 15px rgba(47, 79, 127, 0.7);
+}
+
+.btn-secondary {
+  background-color: #2a2a2a;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #444;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(150, 150, 150, 0.5);
+}
+
+/* ETAPAS DE INFECCIÓN */
+.album {
+  background-color: rgba(18, 18, 18, 0.95);
+  padding: 60px 0;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+}
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.card-text {
+  font-family: "Monserrat", sans-serif;
+  color: #ffffff;
+}
+
+/* CARRUSEL */
+.carousel {
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.carousel .lead {
+  font-style: italic;
+  color: #e4e1d0;
+}
+
+.blockquote-footer {
+  font-family: "Montserrat", sans-serif;
+  color: #2f4f7f;
+  font-weight: bold;
+}
+
+/* CONTACTO */
+form .form-label {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+}
+
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #444;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.form-control:focus {
+  border-color: #2f4f7f;
+  box-shadow: 0 0 10px rgba(47, 79, 127, 0.5);
+}
+
+/* FOOTER */
+footer {
+  background-color: #0a0a0a;
+  border-top: 2px solid #2a2a2a;
+}
+
+.descripcion-tlou {
+  color: #ffffff !important;
+  font-family: "Inter", sans-serif;
+}
